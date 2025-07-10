@@ -1,0 +1,28 @@
+<web-app>
+     <servlet>
+         <servlet-name>HelloWorldServlet</servlet-name>
+        <servlet-class>ExaIntServlet</servlet-class>
+      </servlet>
+<servlet>
+     <servlet-name>GenericServlet</servlet-name>
+     <servlet-class>ExaGenServlet</servlet-class>
+</servlet>
+<servlet>
+       <servlet-name>HttpServlet</servlet-name>
+       <servlet-class>ExaHttpServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+   <servlet-name>HelloWorldServlet</servlet-name>
+   <url-pattern>/sayhello</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+   <servlet-name>GenericServlet</servlet-name>
+   <url-pattern>/callGen</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+    <servlet-name>HttpServlet</servlet-name>
+    <url-pattern>/callHttp</url-pattern>
+</servlet-mapping>
+
+</web-app>

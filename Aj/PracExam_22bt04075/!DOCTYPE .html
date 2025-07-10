@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fixed Form Layout</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background: #f4f4f4;
+    }
+    form {
+      background: white;
+      padding: 20px;
+      border-radius: 5px;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    label {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      margin-bottom: 15px;
+    }
+    .label-text {
+      display: inline-block;
+      white-space: nowrap;
+      font-size: 14px;
+    }
+    .required {
+      color: red;
+    }
+    input, select {
+      padding: 8px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <form>
+    <label>
+      <div class="label-text">First Name <span class="required">*</span></div>
+      <input type="text" placeholder="Enter First Name" required />
+    </label>
+    <label>
+      <div class="label-text">Email <span class="required">*</span></div>
+      <input type="email" placeholder="Enter Email" required />
+    </label>
+    <label>
+      <div class="label-text">Qualification <span class="required">*</span></div>
+      <select required>
+        <option value="">Select Qualification</option>
+        <option>Bachelor's</option>
+        <option>Master's</option>
+      </select>
+    </label>
+    <label>
+      <div class="label-text">Paternal Uncle's Name</div>
+      <input type="text" placeholder="Enter Paternal Uncle's Name" />
+    </label>
+  </form>
+</body>
+</html>

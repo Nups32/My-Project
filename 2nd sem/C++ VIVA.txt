@@ -1,0 +1,18 @@
+C++ VIVA 
+-class is also known as blueprint.
+-object is the instance of class that combines data and class 
+ difference b/w c and c++
+-c++ is object oriented program 
+c is procedure oriented program 
+-c uses scanf() and printf() function to read and write 
+c++ uses cout and cin for output and input opertaions further cout uses insertion operator << and cin uses extraction operator >>
+-c uses stdio.h file for input and output functions 
+c++ uses iostream .h for cout and cin function 
+-in c constructor and destructor are absent and in c++ they are present 
+-same function can be used in diff ways = polymorphism 
+-constructor are those function which are called during object creation 
+-memeber function are those functions that are part of a class
+-constructor overloading means using same consturtor name but with diff types of numbers and paramters 
+-Abstraction is the process of only showing the necessary details to the user and hiding the other details in the background. 
+-encapuslation means storing variables and functions into a single entity called class to maintain data intergity
+- inheritance is a process in which one object acquires all the properties and behaviors of its parent object automatically
